@@ -1,0 +1,119 @@
+/* 
+	ZHUONAN SUN CSE154 AE 
+	7/18/2013 HW3
+	This is the stylesheet for movie.php
+*/
+
+body {
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner {
+	height: 50px;
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+}
+
+h1 {
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+}
+
+.banner, h1, #main > p {
+	text-align: center;
+}
+
+#main{
+	border: 4px gray solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main > img, #main > p, #overview{
+	background-color: #A2B964;
+}
+
+body > a, #main > img, #overview {
+	float: right;
+}
+
+#main > img, #overview {
+	width: 250px;
+}
+
+dl {
+	margin: 10pt;
+	font-family: Arial, sans-serif;
+}
+
+dt {
+	margin-top: 10pt;
+}
+
+#main > p {
+	padding: 5px;
+}
+
+.banner, body > a, #main > p, #overview {
+	clear: right;
+}
+
+.rotten{
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png); 
+	height: 83px;
+	font-size: 48pt;
+	color: red;
+}
+
+#main, #main > p, .rotten {
+	width: 800px;
+}
+
+.rotten img {
+	vertical-align: bottom;
+}
+
+#reviews {
+	width: 550px;
+}
+.column {
+	width: 47%;
+	margin-left: 2%;
+	margin-right: 0;
+}
+
+.review {
+	border: 2px gray solid;
+	padding: 8px;
+	background-color: #E8DC9B;
+}
+
+.review  img, .reviewer img{
+	margin-right: 5px;
+}
+
+.reviewer {
+	margin-bottom: 20pt;
+}
+
+.column, .review img, .reviewer img {
+	float: left;
+}
+
+#main, .review, .reviewer, #reviews {
+	overflow: hidden;
+}
+
+dt, h1, .review, .rotten {
+	font-weight: bold;
+}
+
+.banner, body, #main > img, #main > p , #overview, #reviews {
+	margin: 0;
+}
+
+.reviews span{
+	font-style: italic;
+}

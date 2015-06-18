@@ -1,0 +1,35 @@
+/*
+Zhuonan Sun CSE 154AE HW7 8/16/2013
+This webpage is a simple classic game consisting of 4*4 grid of numbered squares with 
+one square missing. Its "shuffle" button can construct more challenging game for the user
+This is the stylesheet of the web page
+*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rect {
+	font-size: 40pt;
+	width: 90px;
+	height: 90px;
+	background-image: url(background.jpg);
+	border: 5px solid black;
+	position: absolute;
+}
+
+.special:hover{
+	border-color: red;
+	color: red;
+	cursor: pointer;
+}

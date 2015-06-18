@@ -1,0 +1,39 @@
+body {
+  background-color: #FFB131;
+  font-family: sans-serif;
+}
+
+#page {
+  width: 950px;
+  margin: 0 auto;
+  background-color: white;
+  border-bottom: solid 5px black;
+}
+
+#main {
+  padding: 0 1.5em; /* margin also works */
+}
+
+#join {
+  float: right;
+  background-color: #FBC57B;
+  padding: .75em;
+  margin: 1em;
+  font-size: 190%;
+  font-weight: bold; /* not specified in problem */
+}
+
+ul {
+  text-align: center;
+  font-weight: bold;
+  padding: 0; /* will let slide */
+/* list-style-type: none; -- not needed but OK */
+  background-color: black; /* not specified in problem */
+}
+
+li {
+  display: inline;
+  padding: 1.5em; /* margin DOES NOT work */
+  line-height: 2em;
+/* height: 2em; -- not correct but allowed */
+}

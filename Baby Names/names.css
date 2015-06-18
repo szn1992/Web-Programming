@@ -1,0 +1,30 @@
+/*
+Zhuonan Sun CSE 154 AE, hw8, 8/21/2013
+This website is used to display the baby names, their popularity rankings, their meanings,
+and celebrities who have the same names as them 
+This is the style sheet of the web page
+*/
+body, button, select {
+	font-family: Georgia, serif;
+	font-size: 12pt;
+}
+
+q {
+	font-style: italic;
+}
+
+td {
+	height: 250px;
+	vertical-align: bottom;
+}
+
+td div {
+	width: 50px;
+	background-color: #FFBBBB;
+	font-weight: bold;
+	text-align: center;
+}
+
+#errors, .red {
+	color: red;
+}

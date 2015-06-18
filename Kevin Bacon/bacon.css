@@ -1,0 +1,46 @@
+/* 
+	Zhuonan Sun, Section AE, HW5
+	This site can show the movies in which another actor has appeared with Kevin Bacon,
+	and it can also show a list of all movies in which the other actor has appeared
+	
+	This is the css stylesheet shared by all pages
+*/
+
+body {
+	font-family: Verdana, sans-serif; 
+}
+
+#frame {
+	background-color: white;
+	width: 1000px;
+}
+
+#frame, form, table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form, h1, p , table {
+	text-align: center;
+}
+
+table {
+	width: 800px;
+	border-spacing: 0px;
+}
+
+#banner, #w3c {
+	background-image: url(https://webster.cs.washington.edu/images/kevinbacon/banner-background.png)  ;
+	color: white;
+	padding: 6px;
+}
+
+form {
+	width: 24em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body, tr:nth-child(even) {
+	background-color: #dad9d4;
+}	

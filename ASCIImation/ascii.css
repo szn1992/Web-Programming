@@ -1,0 +1,45 @@
+/* 
+Zhuonan Sun CSE154 AE HW6 8/8/2013
+This program constructs a webpage which can perform 
+different types of animations. You can also change the size of the image
+and the speed of the animation.
+This is the stylesheet of the webpage
+*/
+body {
+	background-color: #CCCCFF;
+	text-align: center;
+}
+
+body, button, select {
+	font-family: sans-serif;
+	font-size: 14pt;
+}
+
+h1 {
+	font-size: 32pt;	
+	margin: 0px;
+}
+
+body, button, select, textarea {
+	font-weight: bold;
+}
+
+textarea {
+	width: 90%;
+	height: 400px;
+	font-size: 12pt;
+	font-family: monospace;
+}
+
+fieldset {
+	border-width: 5px;
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	vertical-align: top;
+	display: inline;
+}
+
+div {
+	text-align: right;
+}
